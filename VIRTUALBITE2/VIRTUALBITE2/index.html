@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script> 
+    <title>Cambio de Mensaje</title>
+</head>
+<body>
+    
+      
+    <div class="card">
+        <h2>Nombre de la Tarjeta</h2>
+        <p>Descripción o información adicional sobre la tarjeta.</p>
+        <div id="card">
+            <model-viewer src="Assets/Helado[1].glb"
+                          ios-src="Assets/Helado[1].usdz"
+                          alt="A 3D model of an astronaut"
+                          shadow-intensity="1"
+                          camera-controls
+                          auto-rotate ar>
+            </model-viewer>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+</html>
